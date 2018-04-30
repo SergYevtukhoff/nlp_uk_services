@@ -30,3 +30,6 @@ curl -X POST -d '{"text": "\"З понеділка в Україні - літо.
 
 **Response:**</br>
 {"text": "понеділок україна - літо практично область сухо тепло сонячно жарко температура повітря розкручуватися градус"}
+
+## Credits
+Credits for the list of ukrainian stopwords go to https://github.com/Alir3z4/stop-words
