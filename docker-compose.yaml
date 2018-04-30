@@ -1,0 +1,14 @@
+version: '3'
+services:
+  pr:
+    build: ./pr
+    ports:
+     - "5000:5000"
+  lm:
+    build: ./lm
+    ports:
+     - "5001:5001"
+  sw:
+    build: ./sw
+    ports:
+    - "5002:5002"
