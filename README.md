@@ -26,7 +26,7 @@ docker engine, docker composer
 Here is also a microservice **nlp_test**, that makes api-calls to each of services above and returns a processed, lemmatized text.
 
 **Request:**</br>
-curl -X POST -d '{"text": "\"З понеділка в Україні - літо. Практично у всіх областях буде сухо, дуже тепло і сонячно жарко. Температура повітря буде розкручуватися від + 22 + 28 до + 26 + 32 градусів\""}' [nlp_test_host]:[nlp_test_port]/process
+curl -X POST -d '{"text": "\\"З понеділка в Україні - літо. Практично у всіх областях буде сухо, дуже тепло і сонячно жарко. Температура повітря буде розкручуватися від + 22 + 28 до + 26 + 32 градусів\\""}' [nlp_test_host]:[nlp_test_port]/process
 
 **Response:**</br>
 {"text": "понеділок україна - літо практично область сухо тепло сонячно жарко температура повітря розкручуватися градус"}
